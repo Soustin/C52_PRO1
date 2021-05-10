@@ -1,0 +1,146 @@
+.bg {
+    margin:-8px;
+}
+
+.menu {
+    font-family:"Papyrus", fantasy;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    background-color: #00ffff;
+    padding:20px;
+    border:#FF6347;
+    border-style:ridge;
+    border-bottom-width:30px;
+    border-top-width:30px;
+    border-right-width:30px;
+    border-left-width:30px;
+    margin:8px;
+}
+
+.menu1 {
+    font-family:"Papyrus", fantasy;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    background-color: #00ffff;
+    padding:20px;
+    border:#FF6347;
+    border-style:ridge;
+    border-bottom-width:30px;
+    border-top-width:30px;
+    border-right-width:30px;
+    border-left-width:30px;
+    margin:8px;
+}
+
+.menu2 {
+    font-family:"Papyrus", fantasy;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    background-color: #be93d4;
+    padding:20px;
+    border:#b80f0a;
+    border-style:double;
+    border-width:30px;
+    margin:8px;
+}
+
+.start {
+    color:#fafad2;
+    text-align: center;
+    font-size:20px;
+    font-family:"Lucida Handwriting", Cursive;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    background-color:#65ff00;
+    padding:10px;
+    border:#556b3f;
+    border-style:dotted;
+    border-bottom-width:15px;
+    border-top-width:15px;
+    border-right-width:15px;
+    border-left-width:15px;
+    margin:8px;
+}
+
+.start-1 {
+    color:#fafad2;
+    text-align: center;
+    font-size:20px;
+    font-family:"Lucida Handwriting", Cursive;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    background-color:#00fa9a;
+    padding:10px;
+    border:#dfff00;
+    border-style:dotted;
+    border-bottom-width:15px;
+    border-top-width:15px;
+    border-right-width:15px;
+    border-left-width:15px;
+    margin:8px;
+}
+
+.start-2 {
+    color:#4169e1;
+    text-align: center;
+    font-size:25px;
+    font-family: 'Papyrus', fantasy;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    background-color:snow;
+    padding:10px;
+    border:#91e0ff;
+    border-style:double;
+    border-bottom-width:15px;
+    border-top-width:15px;
+    border-right-width:15px;
+    border-left-width:15px;
+    margin:8px;
+}
+
+.body1 {
+    color:#20b2aa;
+    text-align: center;
+    font-size:20px;
+    font-family:"Harrington", fantasy;
+    margin-top:65px;
+    padding:200px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    background-color: transparent;
+}
+
+.project-list {
+    position:relative;
+}
+
+.project-list h3{
+    position: absolute;
+    transform: scale(1.1);
+    opacity:0;
+}
+
+.project-list:hover h3{
+    opacity:1;
+    left: -50%;
+    top: 25%;
+}
+
+.follows{
+    border: #b80f0a;
+    border-style:solid;
+    border-width: 3px;
+    background-color: #ff7700;
+    padding: 8px;
+    margin:10px;
+}
+
+.header a:link{color:darkred;}
+.header a:visited{color:chartreuse;}
